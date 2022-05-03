@@ -16,9 +16,7 @@ public class LaunchProjectile : MonoBehaviour
     public float launchSpeed = 1.0f;
 
     public void Fire()
-    {
-        Debug.Log("startPoint.position: " + startPoint.position);
-        Debug.Log("startPoint.rotation: " + startPoint.rotation);
+    {        
         GameObject newObject = Instantiate(projectilePrefab, startPoint.position, startPoint.rotation);
 
         if (newObject.TryGetComponent(out Rigidbody rigidBody))
