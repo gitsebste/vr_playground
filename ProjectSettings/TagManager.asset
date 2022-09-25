@@ -6,6 +6,7 @@ TagManager:
   tags:
   - killable
   - projectile
+  - pilkatenisowa
   layers:
   - Default
   - TransparentFX
